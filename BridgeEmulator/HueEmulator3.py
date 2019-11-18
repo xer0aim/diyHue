@@ -1559,6 +1559,7 @@ class S(BaseHTTPRequestHandler):
             raw_json = self.data_string.decode('utf8')
             raw_json = raw_json.replace("\t","")
             raw_json = raw_json.replace("\n","")
+            raw_json = raw_json.replace("\x00","")
             post_dictionary = json.loads(raw_json)
             logging.info(self.data_string)
         url_pices = self.path.rstrip('/').split('/')
