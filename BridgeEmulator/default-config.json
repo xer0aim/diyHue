@@ -501,8 +501,8 @@
       "timezone":"Europe/Bucharest",
       "modelid":"BSB002",
       "datastoreversion":"70",
-      "swversion":"1934129020",
-      "apiversion":"1.24.0",
+      "swversion":"1941132080",
+      "apiversion":"1.39.0",
       "swupdate":{
          "updatestate":0,
          "checkforupdate":false,
